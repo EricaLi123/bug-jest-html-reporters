@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "test:one": "jest --runInBand --testPathIgnorePatterns b.spec.ts"
   },
   "repository": {
     "type": "git",
